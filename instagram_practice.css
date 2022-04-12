@@ -1,0 +1,12 @@
+
+h2{
+  color: brown;
+  }
+.highlight{
+  border: solid;
+  border-color: blueviolet;
+  }
+#profile{
+  border: solid;
+  border-color: palevioletred;
+}
