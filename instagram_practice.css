@@ -2,11 +2,59 @@
 h2{
   color: brown;
   }
-.highlight{
-  border: solid;
-  border-color: blueviolet;
-  }
 #profile{
-  border: solid;
-  border-color: palevioletred;
+  display: grid;
+  grid-template-columns: 1fr 3.5fr
+  /* border: solid;
+  border-color: palevioletred; */
 }
+#profile_info{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  height: 50px;
+}
+#profile_pic{
+  width: 50px;
+  height: 50px;
+}
+.highlight_pic{
+  width: 35px;
+  height: 35px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#highlight_area{
+  display: grid;
+  grid-template-columns: 45px 45px 1fr;
+}
+.highlight{
+  /* border: solid;
+  border-color: blueviolet; */
+  text-align: center;
+  
+  }
+.thumbnail_grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.thumnail{
+  width: 100%;
+}
+#stat_bar{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid rgb(206, 204, 204);
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.stat{text-align: center;}
+.circle_pic{
+  border: snow 1px;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* 216쪽 할 차례 */
